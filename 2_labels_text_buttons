@@ -5,7 +5,7 @@ import Tkinter as tk
 def displaytext():
     global userinput
     text = userinput.get() 
-    label_text = Label(root, text=text)
+    label_text = tk.Label(root, text=text)
     label_text.pack()  
 
 root = tk.Tk()
